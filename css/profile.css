@@ -1,0 +1,64 @@
+.top-header-transparent {
+  background-color: transparent;
+}
+
+.profile .profile_header {
+  height: 80vh;
+  width: 100%;
+  background-image: url("http://www.vactualpapers.com/web/wallpapers/1-pattern-35-color-schemes-material-design-wallpaper-series-image11/thumbnail/lg.jpg");
+  position: relative;
+  top: -60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.profile_header .profile_header_container {
+  position: relative;
+  bottom: -60px;
+  text-align: center;
+}
+
+.profile_header_container img {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile .profile_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.profile_container input {
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.profile_actions {
+  display: flex;
+}
+
+.profile_action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.profile_action-circle {
+  background-color: #f2f2f2;
+  padding: 15px;
+  border-radius: 50%;
+  color: #523737;
+  margin-bottom: 15px;
+}
+
+.profile_action-title {
+  font-size: 12px;
+  font-weight: 600;
+}
